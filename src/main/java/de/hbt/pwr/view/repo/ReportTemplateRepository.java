@@ -1,10 +1,10 @@
 package de.hbt.pwr.view.repo;
 
-import de.hbt.pwr.view.model.ViewProfile;
+import de.hbt.pwr.view.model.ReportTemplate;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ViewProfileRepository extends CrudRepository<ViewProfile, String> {
+public interface ReportTemplateRepository extends CrudRepository<ReportTemplate, String> {
 
 }
